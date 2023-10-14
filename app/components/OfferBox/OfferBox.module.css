@@ -1,0 +1,65 @@
+.offerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 30px 24px 40px;
+  color: var(--white);
+  text-align: center;
+}
+
+.offerBox.primary {
+  border: 1px solid rgba(0, 255, 102, .5);
+}
+
+.offerBox.secondary {
+  border: 1px solid #ff5c00;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 46px;
+}
+
+.smallLabel {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.text:not(:last-of-type) {
+  margin-bottom: 25px;
+}
+
+.dottedLine {
+  width: 90px;
+  border-top: 1px dashed var(--white);
+  margin-bottom: 14px;
+}
+
+.priceWrapper {
+  margin-bottom: 50px;
+}
+
+.price {
+  font-size: 32px;
+  color: var(--secondary);
+}
+
+.offerBox.secondary .price {
+  color: var(--primary);
+}
+
+.priceInfo {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}

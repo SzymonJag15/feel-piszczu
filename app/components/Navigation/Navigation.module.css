@@ -1,0 +1,36 @@
+.navigation {
+  position: relative;
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+  background-color: var(--bg);
+  box-shadow: 0 2px 2px rgba(0, 255, 102, .05);
+  z-index: 1;
+}
+
+.navigation :global(.container) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLine {
+  width: 174px;
+  height: 2px;
+  background-color: var(--white);
+}
+
+.menuElement {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  color: var(--white);
+  letter-spacing: .25px;
+  padding: 5px 10px;
+  transition: var(--animation);
+}
+
+.menuElement:hover {
+  color: var(--primary);
+}

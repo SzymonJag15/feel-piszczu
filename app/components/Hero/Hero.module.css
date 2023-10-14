@@ -1,0 +1,51 @@
+.hero {
+  position: relative;
+}
+
+.heroImage {
+  width: 84%;
+  display: block;
+  margin-left: auto;
+  object-fit: cover;
+  object-position: bottom;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.heroContentWrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.heroLabel {
+  max-width: 680px;
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 110%;
+  color: var(--white);
+  margin-bottom: 32px;
+}
+
+.heroLabelColor {
+  color: var(--primary);
+}
+
+.specsWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 15px;
+  max-width: 400px;
+  margin-top: 80px;
+}
+
+.singleSpec {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+  padding: 15px 30px;
+
+  background: linear-gradient(var(--black), var(--black)) padding-box, linear-gradient(92deg, #0f6, #fff 100%, #000b31 100%, #88c9ff) border-box;
+  border-radius: 16px;
+  border: 2px solid transparent;
+}

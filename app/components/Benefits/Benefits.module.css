@@ -1,0 +1,30 @@
+.benefits {
+  padding: 50px 0;
+}
+
+.header {
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 35px;
+}
+
+.singleBenefit {
+  text-align: center;
+  color: var(--white);
+}
+
+.singleBenefit > img {
+  margin-bottom: 40px;
+}
+
+.singleBenefit > p {
+  line-height: 1.4;
+}
+
+@media (min-width: 1200px) {
+  .benefitsWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+  }
+}

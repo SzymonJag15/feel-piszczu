@@ -1,0 +1,9 @@
+.home {
+  background-color: var(--bg);
+}
+
+.trainingCampOffer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
